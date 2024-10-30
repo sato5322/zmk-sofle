@@ -54,15 +54,15 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
   - $$mdi:apple-keyboard-option$$
-  - {t: LANG1, h: LGUI}
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - '&mt LGUI LANG 2'
+  - $$mdi:keyboard-space$$
+  - layer1
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: LANG2, h: '2'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: LANG1, h: '1'}
   - .
   - $$mdi:backspace-reverse-outline$$
   layer1:
@@ -184,14 +184,14 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: OUT BLE, type: held}
+  - {type: held}
+  - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
