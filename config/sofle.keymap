@@ -38,7 +38,14 @@
         tap-ms = <30>;
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        dfDEL {
+            bindings = <&kp DELETE>;
+            key-positions = <29 30>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
