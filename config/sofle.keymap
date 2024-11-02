@@ -45,6 +45,11 @@
             bindings = <&kp DELETE>;
             key-positions = <29 30>;
         };
+
+        BTCLRALL {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 44>;
+        };
     };
 
     keymap {
