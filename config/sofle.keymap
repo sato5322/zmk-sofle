@@ -38,19 +38,7 @@
         tap-ms = <30>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        BT_CLR_ALL {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <0 44>;
-        };
-
-        DF-DEL {
-            bindings = <&kp DELETE>;
-            key-positions = <29 30>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
