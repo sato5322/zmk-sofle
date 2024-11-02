@@ -198,3 +198,5 @@ layers:
 combos:
 - p: [29, 30]
   k: $$mdi:backspace-reverse-outline$$
+- p: [0, 44]
+  k: BT CLR ALL
