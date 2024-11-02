@@ -50,7 +50,7 @@
 &kp C_MUTE             &lt 2 DEL  &lt 2 DELETE  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &lt 1 SPACE    &mt LSHIFT ENTER  &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &lt 2 LANG1  &kp APOS  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp F18 F19>;
             display-name = "LAYER0";
         };
 
