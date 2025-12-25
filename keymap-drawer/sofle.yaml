@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - \
   - $$mdi:volume-off$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: layer1}
