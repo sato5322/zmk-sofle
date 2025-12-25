@@ -71,11 +71,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9    &kp F10   &trans
-&kp DOT     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &mmv MOVE_DOWN   &kp CARET        &kp AMPS         &kp STAR  &kp LPAR  &kp RPAR  &kp EQUAL
-&kp EQUAL   &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &mmv MOVE_LEFT   &kp N6           &kp N7           &kp N8    &kp N9    &kp N0    &kp EQUAL
-&kp MINUS   &kp N6    &kp N7  &kp N8    &kp N9    &kp N0       &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans    &trans    &trans    &trans
-&kp C_MUTE  &trans    &trans  &trans    &trans    &trans       &mkp LCLK        &trans           &trans           &trans    &trans    &trans
+&kp GRAVE   &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &trans  &kp F6           &kp F7           &kp F8    &kp F9    &kp F10   &trans
+&kp DOT     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans  &kp CARET        &kp AMPS         &kp STAR  &kp LPAR  &kp RPAR  &kp EQUAL
+&kp EQUAL   &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &trans  &kp N6           &kp N7           &kp N8    &kp N9    &kp N0    &kp EQUAL
+&kp MINUS   &kp N6    &kp N7  &kp N8    &kp N9    &kp N0       &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans    &trans    &trans    &trans
+&kp C_MUTE  &trans    &trans  &trans    &trans    &trans       &trans  &trans           &trans           &trans    &trans    &trans
             >;
 
             display-name = "layer1";
@@ -84,11 +84,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7     &kp F8            &kp F9             &kp F10    &trans
-&trans          &trans        &kp J         &kp UP        &kp L         &trans          &mmv MOVE_DOWN   &trans     &kp HOME   &kp UP            &kp END            &kp UNDER  &kp PLUS
-&trans          &out OUT_USB  &kp LEFT      &kp DOWN      &kp RIGHT     &trans          &mmv MOVE_LEFT   &trans     &kp LEFT   &kp DOWN          &kp RIGHT          &kp LBRC   &kp RBRC
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
-&trans          &trans        &out OUT_BLE  &trans        &trans        &trans          &mkp LCLK        &mkp MCLK  &mkp RCLK  &trans            &trans             &trans
+&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp F6     &kp F7     &kp F8            &kp F9             &kp F10    &trans
+&trans          &trans        &kp J         &kp UP        &kp L         &trans          &trans  &trans     &kp HOME   &kp UP            &kp END            &kp UNDER  &kp PLUS
+&trans          &out OUT_USB  &kp LEFT      &kp DOWN      &kp RIGHT     &trans          &trans  &trans     &kp LEFT   &kp DOWN          &kp RIGHT          &kp LBRC   &kp RBRC
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans          &trans  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
+&trans          &trans        &out OUT_BLE  &trans        &trans        &trans          &trans  &mkp MCLK  &mkp RCLK  &trans            &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
