@@ -58,11 +58,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE              &kp N1     &kp N2        &kp N3               &kp N4              &kp N5       &kp UP_ARROW      &kp N6                 &kp N7       &kp N8       &kp N9    &kp N0      &kp BACKSPACE
-&kp ESC                &kp Q      &kp W         &kp E                &kp R               &kp T        &kp DOWN_ARROW    &kp Y                  &kp U        &kp I        &kp O     &kp P       &kp BSLH
-&mt RIGHT_CONTROL TAB  &kp A      &kp S         &kp D                &kp F               &kp G        &kp LEFT_ARROW    &kp H                  &kp J        &kp K        &kp L     &kp SEMI    &kp MINUS
-&kp LSHFT              &kp Z      &kp X         &kp C                &kp V               &kp B        &kp RIGHT_ARROW   &kp N                  &kp M        &kp COMMA    &kp DOT   &kp FSLH    &kp NON_US_BACKSLASH
-&kp C_MUTE             &lt 2 DEL  &lt 1 DELETE  &mt LEFT_ALT DELETE  &mt LEFT_GUI LANG2  &kp SPACE    &mt LSHIFT ENTER  &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &lt 2 LANG1  &kp APOS  &kp DELETE
+&kp GRAVE              &kp N1     &kp N2     &kp N3               &kp N4              &kp N5         &kp UP_ARROW      &kp N6                 &kp N7       &kp N8               &kp N9        &kp N0       &kp BACKSPACE
+&kp ESC                &kp Q      &kp W      &kp E                &kp R               &kp T          &kp DOWN_ARROW    &kp Y                  &kp U        &kp I                &kp O         &kp P        &kp BSLH
+&mt RIGHT_CONTROL TAB  &kp A      &kp S      &kp D                &kp F               &kp G          &kp LEFT_ARROW    &kp H                  &kp J        &kp K                &kp L         &kp SEMI     &kp MINUS
+&kp LSHFT              &kp Z      &kp X      &kp C                &kp V               &kp B          &kp RIGHT_ARROW   &kp N                  &kp M        &kp COMMA            &kp DOT       &kp FSLH     &kp NON_US_BACKSLASH
+&kp C_MUTE             &lt 2 DEL  &kp SPACE  &mt LEFT_ALT DELETE  &mt LEFT_GUI LANG2  &lt 1 SPACE    &mt LSHIFT ENTER  &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &mt RIGHT_GUI LANG1  &kp KP_MINUS  &kp KP_PLUS
             >;
 
             sensor-bindings = <&inc_dec_kp F19 F18>;
