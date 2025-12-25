@@ -1,9 +1,10 @@
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -57,11 +58,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE              &kp N1     &kp N2        &kp N3               &kp N4              &kp N5         &kp UP_ARROW      &kp N6                 &kp N7       &kp N8       &kp N9    &kp N0      &kp BACKSPACE
-&kp ESC                &kp Q      &kp W         &kp E                &kp R               &kp T          &kp DOWN_ARROW    &kp Y                  &kp U        &kp I        &kp O     &kp P       &kp BSLH
-&mt RIGHT_CONTROL TAB  &kp A      &kp S         &kp D                &kp F               &kp G          &kp LEFT_ARROW    &kp H                  &kp J        &kp K        &kp L     &kp SEMI    &kp MINUS
-&kp LSHFT              &kp Z      &kp X         &kp C                &kp V               &kp B          &kp RIGHT_ARROW   &kp N                  &kp M        &kp COMMA    &kp DOT   &kp FSLH    &kp ENTER
-&kp C_MUTE             &lt 2 DEL  &lt 2 DELETE  &mt LEFT_ALT DELETE  &mt LEFT_GUI LANG2  &lt 1 SPACE    &mt LSHIFT ENTER  &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &lt 2 LANG1  &kp APOS  &kp DELETE
+&kp GRAVE              &kp N1     &kp N2        &kp N3               &kp N4              &kp N5       &kp UP_ARROW      &kp N6                 &kp N7       &kp N8       &kp N9    &kp N0      &kp BACKSPACE
+&kp ESC                &kp Q      &kp W         &kp E                &kp R               &kp T        &kp DOWN_ARROW    &kp Y                  &kp U        &kp I        &kp O     &kp P       &kp BSLH
+&mt RIGHT_CONTROL TAB  &kp A      &kp S         &kp D                &kp F               &kp G        &kp LEFT_ARROW    &kp H                  &kp J        &kp K        &kp L     &kp SEMI    &kp MINUS
+&kp LSHFT              &kp Z      &kp X         &kp C                &kp V               &kp B        &kp RIGHT_ARROW   &kp N                  &kp M        &kp COMMA    &kp DOT   &kp FSLH    &kp ENTER
+&kp C_MUTE             &lt 2 DEL  &lt 1 DELETE  &mt LEFT_ALT DELETE  &mt LEFT_GUI LANG2  &kp SPACE    &mt LSHIFT ENTER  &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &lt 2 LANG1  &kp APOS  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp F19 F18>;
@@ -84,7 +85,7 @@
         layer_2 {
             bindings = <
 &kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7     &kp F8            &kp F9             &kp F10    &trans
-&trans         &trans        &kp J         &kp UP        &kp L         &trans          &mmv MOVE_DOWN   &trans     &kp HOME   &kp UP            &kp END            &kp UNDER  &kp PLUS
+&trans          &trans        &kp J         &kp UP        &kp L         &trans          &mmv MOVE_DOWN   &trans     &kp HOME   &kp UP            &kp END            &kp UNDER  &kp PLUS
 &trans          &out OUT_USB  &kp LEFT      &kp DOWN      &kp RIGHT     &trans          &mmv MOVE_LEFT   &trans     &kp LEFT   &kp DOWN          &kp RIGHT          &kp LBRC   &kp RBRC
 &kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
 &trans          &trans        &out OUT_BLE  &trans        &trans        &trans          &mkp LCLK        &mkp MCLK  &mkp RCLK  &trans            &trans             &trans
