@@ -51,7 +51,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_2 {
@@ -63,7 +63,7 @@
 &trans          &trans        &out OUT_BLE  &trans        &trans        &trans          &trans  &mkp MCLK  &mkp RCLK  &trans            &trans             &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
